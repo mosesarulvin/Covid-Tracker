@@ -1,0 +1,82 @@
+.infoBox{
+    flex:1;
+    cursor: pointer;
+    /* transition: transform 450ms; */
+}
+
+.infoBox:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 5px 2px #0000002e;
+    border: 0.5px solid #9E9E9E;
+}
+
+
+.infoBox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infoBox--Recovered{
+    border-top: 10px solid #269742;
+    background-color: #2697422b !important;
+}
+
+.infoBox--Deaths{
+    border-top: 10px solid #fe073a;
+    background-color:#fe073a29 !important;
+}
+
+.infoBox--Cases{
+    border-top: 10px solid #026fe6;
+    background-color: #026fe626 !important;
+}
+
+
+.infoBox__cases--Cases{
+    color: #026fe6 !important;
+}
+
+.infoBox__cases--Recovered{
+    color:#269742 !important;
+}
+
+.infoBox__cases--Deaths{
+    color:#fe073a !important;
+}
+
+.infoBox__cases{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+.infoBox__title{
+    font-size: 1.5rem !important;
+}
+
+@media (max-width: 990px){
+    .infoBox__cases {
+        font-weight: 600;
+        font-size: 1.175rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .infoBox__title{
+        font-size: 0.9rem !important;
+    }
+
+    .infoBox__total{
+        color: #6c757d;
+        font-weight: bold !important;
+        font-size: 0.8rem !important;
+        margin-top: 15px !important;
+    }
+    
+}
+
