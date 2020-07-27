@@ -4,11 +4,11 @@
     /* transition: transform 450ms; */
 }
 
-.infoBox:hover{
+/* .infoBox:hover{
     transform: scale(1.04);
     box-shadow: 0 0 5px 2px #0000002e;
     border: 0.5px solid #9E9E9E;
-}
+} */
 
 
 .infoBox:not(:last-child){
